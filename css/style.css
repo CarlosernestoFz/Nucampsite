@@ -8,6 +8,7 @@ h1, h2, h3 {
 }
 h2 {
     color: #3046C5;
+    
 }
 header h2 {
     color: #CEC8FF;
@@ -33,7 +34,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901cad;
+    background-color: purple;
 }
 
 .tab-content {
@@ -52,5 +53,5 @@ a, a:hover {
   }
 
   .carousel {
-      border: solid #5637DD;
-  }
+    border: solid #5637DD;
+}
