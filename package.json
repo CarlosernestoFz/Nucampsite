@@ -13,7 +13,8 @@
     "imagemin": "imagemin img/* -o dist/img",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "clean": "rimraf dist",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0",
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
